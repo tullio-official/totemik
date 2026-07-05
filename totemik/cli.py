@@ -8,7 +8,7 @@ from totemik.habit import VALID_PERIODS
 
 
 MENU = """
-=== TOTEMIK ===
+=== totemik ===
 1. View all habits
 2. Add a habit
 3. Edit a habit

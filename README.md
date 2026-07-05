@@ -1,6 +1,6 @@
-# Totemik
+# totemik
 
-Totemik is a command-line habit tracker. You manage habits through a numbered
+totemik is a command-line habit tracker. You manage habits through a numbered
 menu in the terminal, and the data is kept in a local SQLite database so it
 persists between sessions. The app is delivered with ten predefined habits and
 four weeks of example completions, so the first run already has data to explore.
@@ -22,7 +22,7 @@ Clone the repository. If you want an isolated environment, create a virtual
 environment as well:
 
     git clone <repository-url>
-    cd Totemik
+    cd totemik
     python -m venv .venv
     source .venv/bin/activate        # Windows: .venv\Scripts\activate
 
@@ -36,11 +36,11 @@ Install pytest if you plan to run the tests:
 
 The database file `habits.db` is created in the project root on first run.
 
-## Using Totemik
+## Using totemik
 
 Starting the app prints the main menu:
 
-    === TOTEMIK ===
+    === totemik ===
     1. View all habits
     2. Add a habit
     3. Edit a habit
