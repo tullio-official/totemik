@@ -21,7 +21,7 @@ No other third-party libraries are used.
 Clone the repository. If you want an isolated environment, create a virtual
 environment as well:
 
-    git clone <repository-url>
+    git clone https://github.com/tullio-official/totemik.git
     cd totemik
     python -m venv .venv
     source .venv/bin/activate        # Windows: .venv\Scripts\activate
